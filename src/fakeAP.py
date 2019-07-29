@@ -6,6 +6,7 @@ import time
 dnsmasq_conf = "conf/dnsmasq.conf"
 hostapd_conf = "conf/hostapd.conf"
 website_files = "html" #The folder of website
+os.system("chmod 777 -R html")
 
 
 ap_iface = ""
